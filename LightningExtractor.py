@@ -24,7 +24,6 @@ def process_video(video_path):
 
         # Increment frame count
         frame_count += 1
-        print(f"Processing frame {frame_count}...", end='\r')
 
         # Check if it's not the first frame
         if prev_frame is not None:
